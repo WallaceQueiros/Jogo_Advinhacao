@@ -1,13 +1,13 @@
 print('********************************')
 print('Bem vindo ao jogo de Adivinhação')
 print('********************************')
-cont = 0
+tentativas = 0
 number_secret = 42
 while True:
 
     chute = int(input('Digite o seu número: '))
-    cont += 1
-    print(f'Você já tentou {cont} vezes')
+    tentativas += 1
+    print(f'Você já tentou {tentativas} vezes')
     print(f'Você digitou {chute}')
 
     if number_secret == chute:
