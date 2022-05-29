@@ -13,7 +13,7 @@ print('''(1) Facil
 (3) Difiil ''')
 
 escolha = int(input('Nivel: '))
-if escolha != 1 or escolha != 2 or escolha !=3:
+if escolha != 1 or escolha != 2 or escolha != 3:
     print('Escolha uma opção valida')
     escolha = int(input('Nivel: '))
 print(32 * '*')
