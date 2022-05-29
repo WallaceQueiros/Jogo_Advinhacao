@@ -1,11 +1,15 @@
-print('********************************')
-print('Bem vindo ao jogo de Adivinhação')
-print('********************************')
-tentativas = 0
-number_secret = 42
-while True:
+from random import randint
 
+print(32 * '*')
+print('Bem vindo ao jogo de Adivinhação')
+print(32 * '*')
+
+tentativas = 0
+number_secret = randint(0, 100)
+
+while True:
     chute = int(input('Digite o seu número: '))
+    print(32 * '=')
     tentativas += 1
     print(f'Você já tentou {tentativas} vezes')
     print(f'Você digitou {chute}')
