@@ -57,3 +57,7 @@ def jogar():
                 print('O número digitado é menor que o secreto')
             print(32 * '=')
     print(f'Sua pontuação final no nivel {escolha} foi de: {tentativas} pontos ')
+
+
+if __name__ == '__main__':
+    jogar()
